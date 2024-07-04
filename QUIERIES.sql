@@ -1,0 +1,31 @@
+-- SELECT * FROM expenses;
+-- SELECT date, category, amount FROM expenses;
+-- SELECT * FROM Expenses
+-- WHERE date BETWEEN '2021-01-01' AND '2024-12-15';
+-- select * from expenses
+-- where category= 'Entertainment'
+-- select * from expenses 
+-- where amount > 50;
+-- SELECT * FROM Expenses
+-- WHERE amount < 75 AND category = 'Food';
+-- select * from expenses 
+-- where category='transportation' or category='groceries'
+-- select * from expenses 
+-- where category != 'Rent'
+-- SELECT * FROM expenses
+-- order by amount desc;
+-- select * from expenses 
+-- order by date desc, amount asc;
+-- CREATE TABLE Income (
+-- income_id int Auto_increment primary key,
+-- amount decimal(10,2) not null,
+-- date date not null,
+-- source varchar (50) not null
+-- )
+
+-- Alter table income
+-- add category varchar (50);
+
+-- alter table income
+-- DROP COLUMN source;
+DROP TABLE income;
